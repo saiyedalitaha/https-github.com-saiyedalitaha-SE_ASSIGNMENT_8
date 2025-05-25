@@ -1,9 +1,9 @@
-#What is File function in python? What is keywords to create  and write file.
+# 1). What is File function in python? What is keywords to create and write file.
 
-file = open("example.txt", "w")
-file.write("Hello, this is a new file.")
-file.close()
+# The file function is python file object provides methods and attributes to access and manipulate files.
+# Using file objects, we can read or write any files. Whenever we open a file to perform any operations on it, 
+# Python returns a file object.
 
-
-with open("example.txt", "w") as file:
-    file.write("Hello, this is a new file.")
+f = open('demofile3.txt','w')
+f.write('Paragraphs are the building blocks of papers.!')
+f.close()
